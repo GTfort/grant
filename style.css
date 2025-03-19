@@ -1,0 +1,23 @@
+:root {
+  --dark-blue-bg: #1a1f35;
+  --dark-blue-secondary: #252d47;
+}
+.dark {
+  background-color: var(--dark-blue-bg);
+  color: #fff;
+}
+.dark .bg-white {
+  background-color: var(--dark-blue-bg);
+}
+.dark .text-gray-900 {
+  color: #fff;
+}
+.dark .text-gray-500 {
+  color: #94a3b8;
+}
+.dark .text-gray-700 {
+  color: #e2e8f0;
+}
+.dark .shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
